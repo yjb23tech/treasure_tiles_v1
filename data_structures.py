@@ -17,6 +17,8 @@ arr_tile_bosses = [
 
 ]
 
+arr_options = ["N to travel North", "E to travel East", "S to travel South", "W to travel West", "I to view your Inventory", "Q to Quit the game"]
+
 
 
 
