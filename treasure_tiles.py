@@ -1,5 +1,4 @@
-from data_structures import arr_world_map 
-from data_structures import arr_tile_bosses
+from data_structures import arr_world_map, arr_tile_bosses
 
 for x in range(len(arr_world_map)):
     for y in range(len(arr_world_map)):
