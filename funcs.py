@@ -13,3 +13,6 @@ def int_set_player_age() -> int:
     ui_player_age = int(input("\nAnd how old ye be Sailor?\n"))
     return ui_player_age
 
+def str_welcome_msg(player):
+    print(f"\nWelcome {player.str_name}! Who would've thought a wee sappling from {player.str_birth_place} would brave the 7 seas!\n")
+
