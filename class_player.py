@@ -7,8 +7,8 @@ class Player:
         self.str_name = str_name
         self.int_atk_pwr = 1
     
-    def int_launch_atk():
+    def int_launch_atk(self):
         self.int_atk_pwr = random.randint(1,20)
-        return self.int_atk_pwr
+        return self.int_atk_pwr 
 
 

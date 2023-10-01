@@ -16,15 +16,15 @@ class Tile:
 
         while (tile_boss.int_hp > 0):
 
-            print(f"{title_boss.str_name} currently has a hp of {title_boss.int_hp}!")
+            print(f"{tile_boss.str_name} currently has a hp of {tile_boss.int_hp}!")
 
             tile_boss.int_hp = tile_boss.int_hp - player.int_launch_atk()
-            print(f"{player.str_name} has launched a deadly attack with {self.int_atk_pwr} atk damage ")
+            print(f"{player.str_name} has launched a deadly attack with {player.int_atk_pwr} atk damage ")
             print(f"{tile_boss.str_name} has been wounded! They only have {tile_boss.int_hp} remaining!")
         
         print(f"{tile_boss.str_name} has been defeated!")
     
-    
+
         
 
         
