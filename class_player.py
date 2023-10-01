@@ -8,7 +8,7 @@ class Player:
         self.int_atk_pwr = 1
     
     def int_launch_atk(self):
-        self.int_atk_pwr = random.randint(1,20)
+        self.int_atk_pwr = random.randint(15,25)
         return self.int_atk_pwr 
 
 
