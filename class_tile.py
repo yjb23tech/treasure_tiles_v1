@@ -8,7 +8,7 @@ class Tile:
         self.str_loc_name = str_loc_name 
     
     def __str__(self):
-        return (f"You are in the {self.str_loc_quadrant} quadrant of the map, co-ordinates [{self.int_loc_x}, {self.int_loc_y}] and have arrived at {self.str_loc_name} island")
+        return (f"You are in the {self.str_loc_quadrant} quadrant of the map, co-ordinates [{self.int_loc_x}, {self.int_loc_y}] and have arrived at {self.str_loc_name} island\n")
     
     def pvp_tile_boss(self, player, tile_bosses):
 
